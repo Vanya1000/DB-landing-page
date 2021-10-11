@@ -127,7 +127,7 @@ body {
   top: 0;
   left: 0;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .header {
@@ -390,7 +390,7 @@ body {
 
 .our-company__pro-licensed img {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   max-height: 419px;
 }
 
@@ -527,7 +527,7 @@ body {
 }
 
 .our-services__item_blue {
-  background: url(img/our-services_backgr.jpg) center no-repeat;
+  background: url(/img/our-services_backgr.jpg) center no-repeat;
   background-size: 100% 100%;
 }
 
