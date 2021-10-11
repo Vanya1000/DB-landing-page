@@ -278,7 +278,7 @@ body {
   right: 400px;
   bottom: 35px;
   background-size: cover;
-  background: url(/img/Header_block_2.jpg) center no-repeat;
+  background: url(img/Header_block_2.jpg) center no-repeat;
   width: 310px;
   height: 182px;
 }
@@ -296,7 +296,7 @@ body {
   right: 70px;
   bottom: 35px;
   background-size: cover;
-  background: url(/img/Header_block_3.jpg) center no-repeat;
+  background: url(img/Header_block_3.jpg) center no-repeat;
   width: 310px;
   height: 182px;
 }
