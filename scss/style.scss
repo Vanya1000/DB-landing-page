@@ -162,7 +162,7 @@ body {
 			right: 400px;
 			bottom: 35px;
 			background-size: cover;
-			background: url(img/Header_block_2.jpg) center no-repeat;
+			background: url(/img/Header_block_2.jpg) center no-repeat;
 			width: 310px;
 			height: 182px;
 			@media (max-width: 1100px) {
@@ -177,7 +177,7 @@ body {
 			right: 70px;
 			bottom: 35px;
 			background-size: cover;
-			background: url(img/Header_block_3.jpg) center no-repeat;
+			background: url(/img/Header_block_3.jpg) center no-repeat;
 			width: 310px;
 			height: 182px;
 			@media (max-width: 1100px) {
@@ -206,6 +206,108 @@ body {
 		left: 0;
 		}
 }
+//-------------------------------our-company------------------------------
+.page {
+
+		&__our-company {
+		}
+}
+.our-company {
+
+		&__container {
+		}
+
+		&__body {
+			margin: 100px 0;
+			display: flex;
+			@media (max-width: 912px) {
+				flex-wrap: wrap;
+				flex-direction: column-reverse;
+			}
+			@media (max-width: 780px) {
+				margin: 20px 0;
+			}
+		}
+
+		&__pro-licensed {
+			flex: 0 1 50%;
+			padding: 0px 0px 33% 0px;
+			@media (max-width: 912px) {
+				flex: 0 1 100%;
+				min-height: 419px;
+			}
+			
+		}
+		&__pro-licensed img {
+			object-fit: cover;
+			max-height: 419px;
+		}
+
+		&__content {
+			flex: 0 1 50%;
+			padding: 0px 0px 0px 130px;
+			@media (max-width: 912px) {
+				flex: 0 1 100%;
+				margin-bottom: 40px;
+			}
+			@media (max-width: 1320px) {
+				padding: 0px 0px 0px 30px;
+			}
+			@media (max-width: 780px) {
+				margin-top: 20px;
+				padding: 0px 0px 0px 0px;
+			}
+		}
+
+		&__title {
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 170%;
+			color: #056088;
+			margin: 0px 0px 16px 0px;
+		}
+
+		&__text {
+			font-size: 16px;
+			line-height: 180%;
+			color: #434343;
+			padding-right: 105px;
+		}
+		&__text p {
+			margin: 0px 0px 16px 0px;
+		}
+
+
+		&__achievements span {
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 170%;
+			color: #056088;
+			display: inline-block;
+		}
+
+		&__achievements span:not(last-child) {
+			padding-right: 52px;
+		}
+
+		&__buttons {
+			margin: 32px 0px 0px 0px;
+		}
+
+		&__button {
+			color: inherit;
+			background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+			font-weight: 500;
+			font-size: 16px;
+			display: inline-block;
+			line-height: 370%;
+			padding: 0 43px;
+			color: rgb(255, 255, 255);
+		}
+		&__button:hover {
+			background: linear-gradient(104.58deg, #043d55 10.57%, #077992 96.62%);
+		}
+}
 
 
 
@@ -232,3 +334,9 @@ body {
 
 
 
+
+
+
+.page {
+	flex: 1 1 auto;
+}
