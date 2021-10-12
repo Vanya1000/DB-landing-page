@@ -127,7 +127,7 @@ body {
   top: 0;
   left: 0;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .header {
@@ -390,7 +390,7 @@ body {
 
 .our-company__pro-licensed img {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
   max-height: 419px;
 }
 
@@ -523,6 +523,8 @@ body {
 @media (max-width: 599px) {
   .our-services__item {
     padding: 20px 40px 0px 10px;
+    margin: 0;
+    max-width: none;
   }
 }
 
