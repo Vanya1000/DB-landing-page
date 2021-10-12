@@ -573,6 +573,35 @@ body {
   text-align: center;
 }
 
+.our-benefits__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 -10px;
+}
+
+.our-benefits__column {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.333%;
+          flex: 0 1 33.333%;
+  margin: 0 10px;
+}
+
+.our-benefits__column:nth-child(1) {
+  background: url(/img/our-benefits_background.jpg) no-repeat;
+}
+
+.our-benefits__column:nth-child(2) {
+  background: url(/img/our-benefits_background_2.jpg) no-repeat;
+}
+
+.our-benefits__column:nth-child(3) {
+  background: url(/img/our-benefits_background_3.jpg) no-repeat;
+}
+
 .page {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;

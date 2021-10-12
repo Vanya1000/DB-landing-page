@@ -403,6 +403,63 @@ body {
 			text-align: center;
 		}
 }
+//-------------------------our-benefits----------------------------------------
+.page {
+
+		&__our-benefits {
+		}
+}
+.our-benefits {
+
+		&__header {
+		}
+
+		&__body {
+			display: flex;
+			justify-content: space-between;
+			margin: 0 -10px;
+		}
+
+		&__column {
+			flex: 0 1 33.333%;
+			margin: 0 10px;
+		}
+
+		&__column:nth-child(1) {
+			background: url(/img/our-benefits_background.jpg) no-repeat;
+		}
+
+		&__column:nth-child(2) {
+			background: url(/img/our-benefits_background_2.jpg)no-repeat;
+		}
+
+		&__column:nth-child(3) {
+			background: url(/img/our-benefits_background_3.jpg)no-repeat;
+		}
+
+		&__item {
+			
+		}
+
+		&__icon {
+			
+		}
+
+		&__title {
+		}
+
+		&__text {
+		}
+}
+
+.header-block {
+
+		&__title {
+		}
+
+		&__subtitle {
+		}
+}
 
 
 
