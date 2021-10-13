@@ -106,6 +106,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background: url(/img/background_all.png) 50% 121% no-repeat;
 }
 
 ._container {
@@ -789,6 +790,41 @@ body {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.white {
+  color: white;
+}
+
+.our-works__buttons-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 32px 0 100px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.buttons-block__line {
+  border-top: 3px solid white;
+  width: 55%;
+  margin-top: 33px;
+  margin-right: 40px;
+  border-color: #056088;
+}
+
+.buttons-block__btn {
+  background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 415%;
+  padding: 0 43px;
+}
+
+.buttons-block__btn a {
+  color: white;
 }
 
 .page {

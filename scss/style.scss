@@ -10,12 +10,14 @@ body {
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
+	background: url(/img/background_all.png) 50% 121% no-repeat ;
 }
 ._container {
 	max-width: 1302px;
 	margin: 0 auto;
 	padding: 0 15px;
 	box-sizing: content-box;
+	
 }
 
 ._ibg {
@@ -614,7 +616,40 @@ width: 100%;
 height: 100%;
 object-fit: cover;
 }
+.white {
+	color: white;
+}
 
+.our-works {
+
+		&__buttons-block {
+			display: flex;
+			margin: 32px 0 100px;
+			justify-content: flex-end;
+		}
+}
+.buttons-block {
+
+		&__line {
+			border-top: 3px solid white;
+			width:55%;
+			margin-top: 33px;
+			margin-right: 40px;
+			border-color: #056088;
+		}
+
+		&__btn {
+			background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+			font-weight: 500;
+			font-size: 16px;
+			display: inline-block;
+			line-height: 415%;
+			padding: 0 43px;
+		}
+		&__btn a {
+			color: white;
+		}
+}
 
 
 
