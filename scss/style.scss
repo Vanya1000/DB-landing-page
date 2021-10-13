@@ -17,7 +17,7 @@ body {
 	padding: 0 15px;
 	box-sizing: content-box;
 }
-/*
+
 ._ibg {
 	position: relative;
 }
@@ -30,7 +30,7 @@ body {
 	object-fit: cover;
 
 }
-*/
+
 
 .header {
 	position: absolute;
@@ -572,6 +572,7 @@ body {
 			@media (max-width:810px) {
 				display: none;
 			}
+
 		}
 
 		&__column4-row1 {
@@ -605,10 +606,10 @@ body {
 		}
 }
 
-._ibg {
+._ibg1 {
 
 }
-._ibg img {
+._ibg1 img {
 width: 100%;
 height: 100%;
 object-fit: cover;
