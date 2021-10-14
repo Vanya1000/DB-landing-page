@@ -106,7 +106,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url(/img/background_all.png) 50% 121% no-repeat;
+  background: url(/img/background_all.png) 50% 96% no-repeat;
 }
 
 ._container {
@@ -825,6 +825,77 @@ body {
 
 .buttons-block__btn a {
   color: white;
+}
+
+.say-clients__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.say-clients__item {
+  background-color: white;
+  padding: 50px 33px;
+}
+
+.say-clients__title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 170%;
+  color: #056088;
+  margin-bottom: 16px;
+}
+
+.say-clients__text {
+  font-size: 16px;
+  line-height: 180%;
+  color: #434343;
+  margin-bottom: 32px;
+}
+
+.say-clients__btn {
+  background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 400%;
+  padding: 0 43px;
+}
+
+.say-clients__btn a {
+  color: white;
+}
+
+.say-clients__rewiew-column {
+  background: linear-gradient(1.17deg, #023957 -19.65%, #056088 93.67%);
+  color: white;
+  max-width: 416px;
+  padding: 59px 24px 29px 50px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-top: -190px;
+  position: relative;
+  z-index: 2;
+}
+
+.say-clients__rewiew-body p:nth-child(1) {
+  font-style: italic;
+  line-height: 170%;
+  margin-bottom: 16px;
+}
+
+.say-clients__rewiew-body p:nth-child(2) {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 170%;
+}
+
+.say-clients__rewiew-foto {
+  position: absolute;
+  z-index: 3;
+  top: -50px;
+  left: -50px;
 }
 
 .page {
