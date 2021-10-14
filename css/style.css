@@ -836,6 +836,7 @@ body {
 .say-clients__item {
   background-color: white;
   padding: 50px 33px;
+  width: 330px;
 }
 
 .say-clients__title {
@@ -866,6 +867,15 @@ body {
   color: white;
 }
 
+.say-clients__image img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .say-clients__rewiew-column {
   background: linear-gradient(1.17deg, #023957 -19.65%, #056088 93.67%);
   color: white;
@@ -876,6 +886,13 @@ body {
   margin-top: -190px;
   position: relative;
   z-index: 2;
+}
+
+@media (max-width: 810px) {
+  .say-clients__rewiew-column {
+    margin: 0 auto;
+    margin-top: 90px;
+  }
 }
 
 .say-clients__rewiew-body p:nth-child(1) {
