@@ -106,7 +106,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url(img/background_all.png) 50% 60% no-repeat;
+  background: url(/img/background_all.png) 50% 53.2% no-repeat;
 }
 
 ._container {
