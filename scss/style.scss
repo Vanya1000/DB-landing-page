@@ -10,7 +10,7 @@ body {
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	background: url(/img/background_all.png) 50% 96% no-repeat ;
+	background: url(/img/background_all.png) 50% 87% no-repeat ;
 }
 ._container {
 	max-width: 1302px;
@@ -669,7 +669,7 @@ object-fit: cover;
 		&__item {
 			background-color: white;
 			padding: 50px 33px;
-			width: 330px;
+			width: 331px;
 		}
 
 		&__title {
@@ -745,6 +745,40 @@ object-fit: cover;
 			z-index: 3;
 			top: -50px;
 			left: -50px;
+		}
+}
+//-------------------partners---------------------------------------
+.page {
+
+		&__our-partners {
+		}
+}
+.our-partners {
+
+		&__container {
+		}
+
+		&__column {
+			display: flex;
+			justify-content: space-between;
+			margin: 105px 0;
+			@media (max-width:810px) {
+				margin: 50px 0;
+				flex-wrap: wrap;
+			}
+		}
+
+		&__item {
+			@media (max-width:810px) {
+				padding: 20px 10px;
+			}
+
+			&_blue {
+				font-weight: bold;
+				font-size: 24px;
+				line-height: 170%;
+				color: #056088;
+			}
 		}
 }
 

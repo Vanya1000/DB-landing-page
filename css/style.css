@@ -106,7 +106,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url(/img/background_all.png) 50% 96% no-repeat;
+  background: url(/img/background_all.png) 50% 87% no-repeat;
 }
 
 ._container {
@@ -836,7 +836,7 @@ body {
 .say-clients__item {
   background-color: white;
   padding: 50px 33px;
-  width: 330px;
+  width: 331px;
 }
 
 .say-clients__title {
@@ -913,6 +913,37 @@ body {
   z-index: 3;
   top: -50px;
   left: -50px;
+}
+
+.our-partners__column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 105px 0;
+}
+
+@media (max-width: 810px) {
+  .our-partners__column {
+    margin: 50px 0;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 810px) {
+  .our-partners__item {
+    padding: 20px 10px;
+  }
+}
+
+.our-partners__item_blue {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 170%;
+  color: #056088;
 }
 
 .page {
