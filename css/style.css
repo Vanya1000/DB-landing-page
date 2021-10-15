@@ -106,7 +106,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url(/img/background_all.png) 50% 60% no-repeat;
+  background: url(img/background_all.png) 50% 60% no-repeat;
 }
 
 ._container {
@@ -1058,6 +1058,11 @@ body {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   padding-left: 30px;
+}
+
+.subscribe__input:hover, .subscribe__button:hover {
+  -webkit-box-shadow: 3px 4px 25px 5px rgba(255, 255, 255, 0.5);
+          box-shadow: 3px 4px 25px 5px rgba(255, 255, 255, 0.5);
 }
 
 .subscribe__button {

@@ -10,7 +10,7 @@ body {
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	background: url(/img/background_all.png) 50% 60% no-repeat ;
+	background: url(img/background_all.png) 50% 60% no-repeat ;
 }
 ._container {
 	max-width: 1302px;
@@ -884,6 +884,10 @@ object-fit: cover;
 			min-height: 62px;
 			flex: 1 1 auto;
 			padding-left: 30px;
+		}
+
+		&__input:hover, &__button:hover {
+			box-shadow: 3px 4px 25px 5px rgba(255, 255, 255, 0.5);
 		}
 
 		&__button {
