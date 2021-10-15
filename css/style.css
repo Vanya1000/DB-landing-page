@@ -106,7 +106,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url(/img/background_all.png) 50% 87% no-repeat;
+  background: url(/img/background_all.png) 50% 70% no-repeat;
 }
 
 ._container {
@@ -944,6 +944,64 @@ body {
   font-size: 24px;
   line-height: 170%;
   color: #056088;
+}
+
+.video__body {
+  position: relative;
+  padding: 0px 0px 38% 0px;
+  margin: 0 8%;
+  margin-bottom: 98px;
+}
+
+@media (max-width: 810px) {
+  .video__body {
+    margin: 0px;
+    margin-bottom: 98px;
+  }
+}
+
+.video__body iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.video__title-block {
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(1.17deg, #023957 -19.65%, #056088 93.67%);
+  max-width: 416px;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -19px;
+  margin-right: -1px;
+}
+
+@media (max-width: 810px) {
+  .video__title-block {
+    max-width: 640px;
+    margin-right: 0px;
+  }
+}
+
+.video__title-block:hover {
+  display: none;
+}
+
+.video__title-text {
+  line-height: 180%;
+  color: white;
+  padding: 32px 67px 39px 53px;
+}
+
+@media (max-width: 810px) {
+  .video__title-text {
+    padding: 5px;
+  }
 }
 
 .page {

@@ -10,7 +10,7 @@ body {
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
-	background: url(/img/background_all.png) 50% 87% no-repeat ;
+	background: url(/img/background_all.png) 50% 70% no-repeat ;
 }
 ._container {
 	max-width: 1302px;
@@ -755,9 +755,6 @@ object-fit: cover;
 }
 .our-partners {
 
-		&__container {
-		}
-
 		&__column {
 			display: flex;
 			justify-content: space-between;
@@ -781,6 +778,63 @@ object-fit: cover;
 			}
 		}
 }
+//--------------------video-------------------------
+.page {
+
+		&__video {
+
+		}
+}
+.video {
+
+		&__body {
+			position: relative;
+			padding: 0px 0px 38% 0px; //высчит от ширины боди, так как чет хз.
+			margin: 0 8%;
+			margin-bottom: 98px;
+			@media (max-width:810px) {
+				margin: 0px;
+				margin-bottom: 98px;
+			}
+		}
+
+		&__body iframe {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			object-fit: cover;
+		}
+
+		&__title-block {
+			position: absolute;
+			z-index: 1;
+			background: linear-gradient(1.17deg, #023957 -19.65%, #056088 93.67%);
+			max-width: 416px;
+			bottom: 0;
+			right: 0;
+			margin-bottom: -19px;
+			margin-right: -1px;
+			@media (max-width:810px) {
+				max-width: 640px;
+				margin-right: 0px;
+			}
+		}
+		&__title-block:hover {
+			display: none;
+		}
+
+		&__title-text {
+			line-height: 180%;
+			color: white;
+			padding: 32px 67px 39px 53px;
+			@media (max-width:810px) {
+				padding: 5px;
+			}
+		}
+}
+
 
 
 
