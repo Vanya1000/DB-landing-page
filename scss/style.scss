@@ -646,6 +646,9 @@ object-fit: cover;
 			line-height: 415%;
 			padding: 0 43px;
 		}
+		&__btn:hover {
+			background: linear-gradient(104.58deg, #043d55 10.57%, #077992 96.62%);
+		}
 		&__btn a {
 			color: white;
 		}
@@ -694,6 +697,9 @@ object-fit: cover;
 			display: inline-block;
 			line-height: 400%;
 			padding: 0 43px;
+		}
+		&__btn:hover {
+			background: linear-gradient(104.58deg, #043d55 10.57%, #077992 96.62%);
 		}
 		&__btn a {
 			color: white;
@@ -899,6 +905,132 @@ object-fit: cover;
 			padding: 0 29px;
 			color: inherit;
 		}
+		&__button:hover {
+			background: linear-gradient(104.58deg, #043d55 10.57%, #077992 96.62%);
+		}
+}
+//-------------------------------footer------------------------------
+.footer {
+	background: #023957;
+	margin-top: 100px;
+
+		&__main {
+			
+		}
+
+		&__row {
+			display: flex;
+			justify-content: space-around;
+			padding: 60px 0px 74px 0px;
+			@media (max-width:810px) {
+				flex-wrap: wrap;
+				padding: 10px 0px 24px 0px;
+			}
+		}
+
+		&__column {
+			@media (max-width:810px){
+				order: 2;
+				margin-top: 50px;
+			}
+		}
+
+		&__column:not(:first-child) {
+			padding-top: 20px;
+			@media (max-width:810px){
+				order: 1;
+				flex: 0 1 50%;
+			}
+		}
+
+		&__logo {
+			font-family: Roboto;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 66px;
+			line-height: 116.6%;
+			color: white;
+			margin-bottom: 16px;
+		}
+
+		&__contacts {
+			font-size: 16px;
+			line-height: 150%;
+			margin-bottom: 32px;
+			max-width: 190px;
+			font-family: sans-serif;
+		}
+
+		&__contacts a {
+			color: white;
+		}
+
+		&__button {
+			background: linear-gradient(104.58deg, #056088 10.57%, #09A7CA 96.62%);
+			font-weight: 500;
+			font-size: 16px;
+			display: inline-block;
+			line-height: 430%;
+			padding: 0 25px;
+		}
+		&__button:hover {
+			background: linear-gradient(104.58deg, #043d55 10.57%, #077992 96.62%);
+		}
+		&__button a {
+			color: white;
+		}
+
+		&__title {
+			font-weight: bold;
+			font-size: 24px;
+			line-height: 170%;
+			color: white;
+		}
+}
+
+.contacts-footer {
+
+		&__item {
+			
+			&_map {
+				
+			}
+			&_map:hover {
+				text-decoration: underline;
+			}
+		}
+}
+.menu-footer {
+	margin-bottom: 32px;
+	@media (max-width:810px) {
+		margin-bottom: 10px;
+	}
+		&__list {
+			
+		}
+
+		&__item {
+			margin-bottom:16px;
+			
+		}
+
+		&__link {
+				font-size: 16px;
+				line-height: 150%;
+				color: white;
+				font-family: sans-serif;
+			}
+			&__link:hover {
+				text-decoration-line: underline;
+			}
+}
+.footer__bottom {
+	font-size: 16px;
+	line-height: 170%;
+	background-color: #fff;
+	text-align: center;
+	padding: 30px 0;
+	color: #434343;
 }
 
 
