@@ -32,7 +32,6 @@ body {
 
 }
 
-
 .header {
 	position: absolute;
 	width: 100%;
@@ -155,9 +154,6 @@ body {
 			}
 		}
 
-		&__buttons {
-		}
-
 		&__buttons::before {
 			content: "";
 			display: block;
@@ -216,9 +212,6 @@ body {
 		}
 }
 .our-company {
-
-		&__container {
-		}
 
 		&__body {
 			margin: 100px 0;
@@ -279,7 +272,6 @@ body {
 		&__text p {
 			margin: 0px 0px 16px 0px;
 		}
-
 
 		&__achievements span {
 			font-weight: bold;
