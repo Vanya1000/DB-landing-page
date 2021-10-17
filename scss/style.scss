@@ -459,7 +459,7 @@ body {
 		}
 
 		&__icon {
-			padding: 10% 0 5% 0; 
+			padding: 10% 0 5% 0;
 			
 		}
 
@@ -583,13 +583,16 @@ body {
 			flex-direction: column;
 			justify-content: space-between;
 			
+			
 		}
 
 		&__column4-row1-righttcolumn1 {
+			overflow: hidden;
 
 		}
 
 		&__column4-row1-righttcolumn2 {
+			overflow: hidden;
 			padding-top: 20px;
 		}
 
@@ -744,7 +747,7 @@ object-fit: cover;
 			left: -50px;
 		}
 }
-//-------------------partners---------------------------------
+//-------------------partners---------------------------------------
 .page {
 
 		&__our-partners {

@@ -777,7 +777,12 @@ body {
           justify-content: space-between;
 }
 
+.our-works__column4-row1-righttcolumn1 {
+  overflow: hidden;
+}
+
 .our-works__column4-row1-righttcolumn2 {
+  overflow: hidden;
   padding-top: 20px;
 }
 
